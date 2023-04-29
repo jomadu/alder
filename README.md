@@ -136,4 +136,3 @@ python3 alder.py --workers-file ./examples/example-workers.csv --work-items-file
 |-p, --cycle-period|cycle period in days|`--cycle-period 30`|
 |-o, --output-file|path to output file|`--output-file ./examples/example-output.csv`|
 ```
-
