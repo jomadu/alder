@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Alder",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "args": [
+                "--workers-file", "./examples/example-workers.csv",
+                "--work-items-file", "./examples/example-work-items.csv", 
+                "--weighted-work-categories-file", "./examples/example-weighted-work-categories-file",
+                "--start-date", "2023-04-28",
+                "--cycle-period", "30",
+                "--output-file", "./examples/example-output.csv"
+            ],
+            "console": "integratedTerminal"
+        },
+    ]
+}
